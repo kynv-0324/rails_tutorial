@@ -31,3 +31,16 @@
 
 en:
   hello: "Hello world"
+  home: "home"
+  dashboard: "dashboard"
+  search: "search"
+  devise:
+    login: "login"
+    logout: "logout"
+    sign_up: "sign up"
+    password: "password"
+    confirm_password: "confirm password"
+    minimum_password: "minimum password"
+    remember_me: "Remember me"
+    forgot_password: "Forgot your password?"
+    confirm_instructions: "Didn't receive confirmation instructions?"

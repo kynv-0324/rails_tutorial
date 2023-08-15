@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><%= "Rails tutorial".upcase %></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <% if account_signed_in? %>
+            <a class="nav-link active" aria-current="page" href="/dashboard/index"><%= t("dashboard").capitalize%></a>
+          <% else %>
+            <a class="nav-link active" aria-current="page" href="/"><%= t("home").capitalize%></a>
+          <% end %>
+
+        </li>
+        <% if account_signed_in? %>
+          <li class="nav-item">
+            <%= link_to t("devise.logout").capitalize, destroy_account_session_path, method: :delete, class: "nav-link" %>
+          </li>
+        <% else %>
+          <li class="nav-item">
+            <%= link_to t("devise.login").capitalize, new_account_session_path, class: "nav-link"%>
+          </li>
+          <li class="nav-item">
+            <%= link_to t("devise.sign_up").capitalize, new_account_registration_path, class: "nav-link" %>
+          </li>
+        <% end %>
+
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,29 @@
+<h2><%= t("devise.sign_up").upcase%></h2>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= render "devise/shared/error_messages", resource: resource %>
+
+  <div class="mb-2">
+    <%= f.label :email, class: "mb-2" %><br />
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control w-50", placeholder: "Email" %>
+  </div>
+
+  <div class="mb-2">
+    <%= f.label t("devise.password").capitalize, class: "mb-2" %>
+    <% if @minimum_password_length %>
+    <em>(<%= @minimum_password_length%> <%= t("devise.minimum_password")%>)</em>
+    <% end %><br />
+    <%= f.password_field :password, autocomplete: "new-password", class: "form-control w-50", placeholder: t("devise.password").capitalize %>
+  </div>
+
+  <div class="mb-2">
+    <%= f.label t("devise.confirm_password").capitalize, class: "mb-2" %><br />
+    <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "form-control w-50", placeholder: t("devise.confirm_password").capitalize %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit t("devise.sign_up").capitalize, class: "btn btn-primary my-2 py-2" %>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>

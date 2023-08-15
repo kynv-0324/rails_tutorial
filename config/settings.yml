@@ -1,0 +1,4 @@
+enabled_locales: ["en", "ja"]
+client:
+  host: "localhost:3000"
+time_zone: +7

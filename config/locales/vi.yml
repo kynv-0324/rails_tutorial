@@ -1,0 +1,15 @@
+vi:
+  hello: "xin chào cả nhá nhớ"
+  home: "trang chủ"
+  dashboard: "tổng quan"
+  search: "tìm kiếm"
+  devise:
+    login: "đăng nhập"
+    logout: "đăng xuất"
+    sign_up: "đăng ký"
+    password: "mật khẩu"
+    confirm_password: "xác nhận mật khẩu"
+    minimum_password: "ký tự tối thiểu"
+    remember_me: "ghi nhớ"
+    forgot_password: "quên mật khẩu?"
+    confirm_instructions: "Không nhận được hướng dẫn xác nhận đăng ký?"

@@ -12,4 +12,7 @@
 - Bật server: rails s
 Truy cập đường dẫn http://localhost:3000/ hiển thị Rails là thành công
 
+```angular2html
+bundle exec rubocop
+```
 
