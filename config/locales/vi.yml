@@ -22,7 +22,7 @@ vi:
       login: "Đăng nhập"
     footer:
       description: "@2023 Nguyen Van Ky"
-    users:
+  users:
     index:
       user: "Người dùng"
       name: "Tên"
@@ -32,3 +32,14 @@ vi:
       destroy: "Xóa"
       new_user: "Thêm người dùng"
       date: "Ngày tạo"
+      error: "Không tìm thấy User"
+    new:
+      sign_up: "Đăng ký"
+      success: "Chào mừng tới Sample App - Khóa học Rails 7"
+      error: "Không thể tạo người dùng mới."
+      user_name: "Tên người dùng"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      create: "Tạo tài khoản mới"
+  error:
+    form_error_count: "Form gồm số lỗi"
