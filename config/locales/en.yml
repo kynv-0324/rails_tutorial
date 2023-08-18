@@ -22,3 +22,24 @@ en:
       login: "Login"
     footer:
       description: "@2023 Nguyen Van Ky"
+  users:
+    index:
+      user: "User"
+      name: "Name"
+      email: "Email"
+      show: "Show detail"
+      edit: "Edit"
+      destroy: "Delete"
+      new_user: "Add new user"
+      date: "Created at"
+      error: "User Not Found"
+    new:
+      sign_up: "Sign up"
+      success: "Welcome to the Sample App - Rails 7 tutorial"
+      error: "Failed to create new user."
+      name: "User name"
+      password: "Password"
+      password_confirmation: "Password confirmation"
+      create: "Create new account"
+  error:
+    form_error_count: "The form has total of errors"
