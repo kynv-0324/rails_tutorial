@@ -52,6 +52,7 @@ vi:
       password: "Mật khẩu"
       new_user_title: "Chưa có tài khoản?"
       sign_up_title: "Tạo tài khoản ngay!"
+      remember_me: "Ghi nhớ đăng nhập"
     create:
       error: "Email/mật khẩu không hợp lệ"
   error:
