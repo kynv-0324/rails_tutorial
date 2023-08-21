@@ -52,6 +52,7 @@ en:
       password: "Password"
       new_user_title: "New user?"
       sign_up_title: "Create new user!"
+      remember_me: "Remember me"
     create:
       error: "Invalid email/password combination"
   error:
