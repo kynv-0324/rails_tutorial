@@ -20,6 +20,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Login"
+      logout: "Log out"
+      user: "User"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
     footer:
       description: "@2023 Nguyen Van Ky"
   users:
@@ -41,5 +46,13 @@ en:
       password: "Password"
       password_confirmation: "Password confirmation"
       create: "Create new account"
+  sessions:
+    new:
+      login: "Login"
+      password: "Password"
+      new_user_title: "New user?"
+      sign_up_title: "Create new user!"
+    create:
+      error: "Invalid email/password combination"
   error:
     form_error_count: "The form has total of errors"

@@ -20,6 +20,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      logout: "Đăng xuất"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
     footer:
       description: "@2023 Nguyen Van Ky"
   users:
@@ -41,5 +46,13 @@ vi:
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
       create: "Tạo tài khoản mới"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      password: "Mật khẩu"
+      new_user_title: "Chưa có tài khoản?"
+      sign_up_title: "Tạo tài khoản ngay!"
+    create:
+      error: "Email/mật khẩu không hợp lệ"
   error:
     form_error_count: "Form gồm số lỗi"
