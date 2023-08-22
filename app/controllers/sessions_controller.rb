@@ -4,11 +4,11 @@ class SessionsController < ApplicationController
   def create
     user = User.find_by email: params.dig(:session, :email)&.downcase
     if user&.authenticate(params[:session][:password])
-      # Log the user in and redirect to the user's show page
+      forwarding_url = session[:forwarding_url]
       reset_session
       params[:session][:remember_me] == "1" ? remember(user) : forget(user)
       login user
-      redirect_to user
+      redirect_to forwarding_url || user
     else
       # Create an error message
       flash.now[:danger] = t("sessions.create.error")
