@@ -40,13 +40,13 @@ en:
       show: "Show detail"
       edit: "Edit"
       destroy: "Delete"
-      destroy_confirm: "User sure?"
       new_user: "Add new user"
       date: "Created at"
       error: "User Not Found"
     new:
       sign_up: "Sign up"
       success: "Welcome to the Sample App - Rails 7 tutorial"
+      activate: "Please check your email to activate your account."
       error: "Failed to create new user."
       create: "Create new account"
     edit:
@@ -55,7 +55,14 @@ en:
       change_avatar: "Change avatar"
       success: "Profile updated"
       delete: "User deleted"
-      error: "An error has occurred"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      greeting: "Hi"
+      header: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      success: "Account activated!"
+      fail: "Invalid activation link"
   sessions:
     new:
       login: "Login"
@@ -64,6 +71,7 @@ en:
       sign_up_title: "Create new user!"
       remember_me: "Remember me"
     create:
+      not_activated: "Account not activated. Check your email for activation link."
       error: "Invalid email/password combination"
   error:
     form_error_count: "The form has total of errors"
