@@ -41,6 +41,12 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
+  host = "localhost:3000"
+  # Use this if developing on localhost.
+  config.action_mailer.default_url_options = { host: host, protocol: "http" }
+  # Use this on the cloud IDE.
+  # config.action_mailer.default_url_options = { host: host, protocol: "https" }
+
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 

@@ -40,13 +40,13 @@ vi:
       show: "Xem chi tiết"
       edit: "Chinh sửa"
       destroy: "Xóa"
-      destroy_confirm: "Xác nhận?"
       new_user: "Thêm người dùng"
       date: "Ngày tạo"
       error: "Không tìm thấy User"
     new:
       sign_up: "Đăng ký"
       success: "Chào mừng tới Sample App - Khóa học Rails 7"
+      activate: "Hãy kiểm tra email của bạn để kích hoạt tài khoản."
       error: "Không thể tạo người dùng mới."
       create: "Tạo tài khoản mới"
     edit:
@@ -55,7 +55,14 @@ vi:
       change_avatar: "Đổi avatar"
       success: "Đã cập nhật thông tin"
       delete: "Đã xóa người dùng"
-      error: "Có lỗi đã xảy ra"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      greeting: "Xin chào"
+      header: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+      activate: "Kích hoạt"
+      success: "Tài khoản được kích hoạt!"
+      fail: "Link kích hoạt không hợp lệ"
   sessions:
     new:
       login: "Đăng nhập"
@@ -64,6 +71,7 @@ vi:
       sign_up_title: "Tạo tài khoản ngay!"
       remember_me: "Ghi nhớ đăng nhập"
     create:
+      not_activated: "Tài khoản chưa được kích hoạt. Hãy kiểm tra email của bạn để lấy liên kết kích hoạt."
       error: "Email/mật khẩu không hợp lệ"
   error:
     form_error_count: "Form gồm số lỗi"
