@@ -63,15 +63,33 @@ vi:
       activate: "Kích hoạt"
       success: "Tài khoản được kích hoạt!"
       fail: "Link kích hoạt không hợp lệ"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      title: "Để đặt lại mật khẩu của bạn hãy nhấp vào liên kết bên dưới:"
+      description: "Liên kết này sẽ hết hạn sau hai giờ.\nNếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
   sessions:
     new:
       login: "Đăng nhập"
       password: "Mật khẩu"
+      forgot_password: "Quên mật khẩu?"
       new_user_title: "Chưa có tài khoản?"
       sign_up_title: "Tạo tài khoản ngay!"
       remember_me: "Ghi nhớ đăng nhập"
     create:
       not_activated: "Tài khoản chưa được kích hoạt. Hãy kiểm tra email của bạn để lấy liên kết kích hoạt."
       error: "Email/mật khẩu không hợp lệ"
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      submit: "Gửi"
+      sent_request: "Email được gửi cùng với hướng dẫn đặt lại mật khẩu"
+    edit:
+      title: "Quên mật khẩu"
+      submit: "Gửi"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+    update:
+      success: "Mật khẩu đã được cập nhật."
+      request_expired: "Yêu cầu thay đổi mật khẩu đã hết hạn."
   error:
     form_error_count: "Form gồm số lỗi"

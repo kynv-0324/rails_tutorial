@@ -63,15 +63,33 @@ en:
       activate: "Activate"
       success: "Account activated!"
       fail: "Invalid activation link"
+    password_reset:
+      subject: "Password reset"
+      title: "To reset your password click the link below:"
+      description: "This link will expire in two hours.\nIf you did not request your password to be reset, please ignore this email and your password will stay as it is."
   sessions:
     new:
       login: "Login"
       password: "Password"
+      forgot_password: "Forgot password?"
       new_user_title: "New user?"
       sign_up_title: "Create new user!"
       remember_me: "Remember me"
     create:
       not_activated: "Account not activated. Check your email for activation link."
       error: "Invalid email/password combination"
+  password_resets:
+    new:
+      title: "Forgot password"
+      submit: "Submit"
+      sent_request: "Email sent with password reset instructions"
+    edit:
+      title: "Forgot password"
+      submit: "Submit"
+      password: "Password"
+      password_confirmation: "Password confirmation"
+    update:
+      success: "Password has been reset."
+      request_expired: "Password reset has expired."
   error:
     form_error_count: "The form has total of errors"
