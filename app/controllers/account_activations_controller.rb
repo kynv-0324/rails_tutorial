@@ -16,6 +16,8 @@ class AccountActivationsController < ApplicationController
   private
   def find_user
     @user = User.find_by email: params[:email]
-    redirect_to root_path, flash: {warning: t("users.index.error")} if @user.nil?
+    return if @user.present?
+
+    redirect_to root_path, flash: {warning: t("users.index.error")}
   end
 end
