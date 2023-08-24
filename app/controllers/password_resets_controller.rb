@@ -53,8 +53,9 @@ class PasswordResetsController < ApplicationController
 
   # Confirms a valid user.
   def valid_user
-    return if @user&.activated? &&
-              @user&.authenticated?(:reset, params[:id])
+    return if @user && @user.activated? &&
+              @user.authenticated?(:reset, params[:id])
+
     redirect_to root_path, flash: {warning: t("users.index.error")}
   end
 

@@ -14,6 +14,7 @@ en:
       title: "Welcome to the Sample App"
       description: This is the home page for the <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> sample application.
       sign_up: "Sign up now!"
+      micropost_feed: "Micropost Feed"
   layouts:
     header:
       title: "Ruby on Rails Tutorial Sample App"
@@ -33,6 +34,7 @@ en:
     email: "Email"
     user_name: "User name"
     required_login: "Please log in."
+    view_profile: "View my profile"
     index:
       title: "All users"
       user: "User"
@@ -40,6 +42,7 @@ en:
       show: "Show detail"
       edit: "Edit"
       destroy: "Delete"
+      confirm: "You sure?"
       new_user: "Add new user"
       date: "Created at"
       error: "User Not Found"
@@ -93,3 +96,23 @@ en:
       request_expired: "Password reset has expired."
   error:
     form_error_count: "The form has total of errors"
+  shared:
+    micropost_form:
+      place_holder: "Compose new micropost..."
+      submit: "Post"
+  microposts:
+    title: "Microposts"
+    ago: "ago."
+    created: "Micropost created!"
+    destroy_success: "Micropost deleted"
+    destroy_fail: "Failed to delete Micropost."
+    micropost_not_found: "Micropost not found"
+    invalid_format: "must be a valid image format"
+    less_5MB: "should be less than 5MB"
+    over_image_size: "Maximum file size is 5MB. Please choose a smaller file."
+    micropost:
+      delete: "Delete"
+      confirm: "You sure?"
+  models:
+    micropost:
+    validate_type: "must be a valid image format"

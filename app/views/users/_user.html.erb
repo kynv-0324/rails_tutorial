@@ -4,7 +4,7 @@
     <%= link_to user.name, user %>
     <% if current_user.admin? && !current_user?(user) %>
       | <%= link_to t("users.index.destroy"), user, data: { "turbo-method": :delete,
-                                            turbo_confirm: "You sure?" } %>
+                                            turbo_confirm: t("users.index.confirm") } %>
     <% end %>
   </li>
 <% end %>

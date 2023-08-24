@@ -14,6 +14,10 @@ gem "mysql2", "~> 0.5"
 
 gem "rails-i18n"
 
+gem "i18n-js", ">= 3.0.2"
+
+gem "image_processing", "1.12.2"
+
 gem "config"
 
 gem "bootstrap-sass", "~> 3.4.1"
@@ -22,7 +26,9 @@ gem "sassc-rails", ">= 2.1.0"
 
 gem "bcrypt", "3.1.18"
 
-gem "faker",  "2.21.0"
+gem "active_storage_validations", "0.9.8"
+
+gem "faker", "2.21.0"
 
 gem "will_paginate",            "3.3.1"
 

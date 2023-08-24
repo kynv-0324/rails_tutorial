@@ -14,6 +14,7 @@ vi:
       title: "Trang chủ"
       description: Đây là trang chủ của dự án mẫu sử dụng <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>.
       sign_up: "Đăng ký ngay"
+      micropost_feed: "Bản tin các bài đăng"
   layouts:
     header:
       title: "Ruby on Rails Tutorial Sample App"
@@ -33,6 +34,7 @@ vi:
     email: "Địa chỉ email"
     user_name: "Tên người dùng"
     required_login: "Xin vui lòng đăng nhập."
+    view_profile: "Xem thông tin cá nhân"
     index:
       title: "Tất cả người dùng"
       user: "Người dùng"
@@ -40,6 +42,7 @@ vi:
       show: "Xem chi tiết"
       edit: "Chinh sửa"
       destroy: "Xóa"
+      confirm: "Xác nhận"
       new_user: "Thêm người dùng"
       date: "Ngày tạo"
       error: "Không tìm thấy User"
@@ -93,3 +96,23 @@ vi:
       request_expired: "Yêu cầu thay đổi mật khẩu đã hết hạn."
   error:
     form_error_count: "Form gồm số lỗi"
+  shared:
+    micropost_form:
+      place_holder: "Viết 1 bài viết mới..."
+      submit: "Đăng bài"
+  microposts:
+    title: "Bài đăng"
+    ago: "trước."
+    created: "Đã tạo bài đăng!"
+    destroy_success: "Bài đăng đã được xóa!"
+    destroy_fail: "Gặp lỗi khi xóa bài đăng"
+    invalid_format: "phải là định dạng hình ảnh hợp lệ"
+    micropost_not_found: "Không tìm thấy bài đăng"
+    less_5MB: "phải nhỏ hơn 5 MB"
+    over_image_size: "Kích thước tệp tối đa là 5 MB. Vui lòng chọn một tập tin nhỏ hơn."
+    micropost:
+      delete: "Xóa"
+      confirm: "Xác nhận"
+  models:
+    micropost:
+    validate_type: "hình ảnh phải có định dạng hợp lệ"
