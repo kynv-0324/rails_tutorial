@@ -58,6 +58,15 @@ en:
       change_avatar: "Change avatar"
       success: "Profile updated"
       delete: "User deleted"
+    following: "Following"
+    followers: "Followers"
+    unfollow:
+      unfollow: "Unfollow"
+    follow:
+      follow: "Follow"
+    show_follow:
+      view_profile: "View my profile"
+      micropost: "Micropost"
   user_mailer:
     account_activation:
       subject: "Account activation"
@@ -116,3 +125,12 @@ en:
   models:
     micropost:
     validate_type: "must be a valid image format"
+  relationships:
+    created:
+      success_follow: "Follow successful"
+    destroy:
+      success_unfollow: "Unfollow successful"
+  following:
+    following: "Following"
+  followers:
+    followers: "Followers"
