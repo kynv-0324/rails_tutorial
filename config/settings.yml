@@ -6,3 +6,8 @@ valid_email_regex: !ruby/regexp '/\A[\w+-.]+@[a-z\d-]+(.[a-z\d-]+)*.[a-z]+\z/i'
 username_max_length: 50
 email_max_length: 255
 password_min_length: 6
+length_255: 255
+file_size_5: 5
+micropost:
+  resize_to_limit: [500, 500]
+  image_type: ["image/jpeg", "image/gif", "image/png"]
