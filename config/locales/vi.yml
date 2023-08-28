@@ -58,6 +58,15 @@ vi:
       change_avatar: "Đổi avatar"
       success: "Đã cập nhật thông tin"
       delete: "Đã xóa người dùng"
+    following: "Đang theo dõi"
+    followers: "Người theo dõi (tôi)"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    follow:
+      follow: "Theo dõi"
+    show_follow:
+      view_profile: "Xem thông tin cá nhân"
+      micropost: "Bài đăng"
   user_mailer:
     account_activation:
       subject: "Account activation"
@@ -116,3 +125,12 @@ vi:
   models:
     micropost:
     validate_type: "hình ảnh phải có định dạng hợp lệ"
+  relationships:
+    create:
+      success_follow: "Theo dõi thành công"
+    destroy:
+      success_unfollow: "Bỏ theo dõi thành công"
+  following:
+    following: "Đang theo dõi"
+  followers:
+    followers: "Người theo dõi (tôi)"
